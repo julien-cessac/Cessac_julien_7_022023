@@ -1,0 +1,76 @@
+.Banner {
+    border-radius: 25px;
+    margin: 0rem 4rem 0rem 4rem;
+    position: relative;
+}
+
+.Banner-Home-Img {
+    border-radius: 25px;
+    height: 190px;
+    object-fit: cover;
+    width: 100%;
+}
+
+  .Banner-Home-Txt {
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.Banner-Overlay {
+    background-color: #000000;
+    border-radius: 25px;
+    height: 190px;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+@media screen  and (max-width: 768px) {
+
+    .Banner {
+      border-radius: 15px;
+      margin: 0rem 2rem 0rem 2rem;
+    }
+
+    .Banner-Home-Img {
+      height: 150px;
+      border-radius: 15px;
+    }
+
+    .Banner-Overlay {
+      height: 150px;
+      border-radius: 15px;
+    }
+
+    .Banner-Home-Txt {
+      font-size: 24px;
+      text-align: center;
+  }
+
+  
+}
+
+@media screen  and (max-width: 375px) {
+
+  .Banner {
+    margin: 0rem 1rem 0rem 1rem;
+  }
+
+  .Banner-Home-Img {
+    height: 110px;
+  }
+
+  .Banner-Overlay {
+    height: 110px;
+  }
+
+  .Banner-Home-Txt {
+    font-size: 18px;
+}
+}

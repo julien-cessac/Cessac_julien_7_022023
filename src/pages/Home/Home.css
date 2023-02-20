@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+}
+
+.Thumbs {
+    background-color: #F7F7F7;
+    border-radius: 25px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 50px 50px; 
+    padding: 55px 50px;
+    margin: 4em;
+}
+
+@media screen  and (max-width: 1024px) {
+    .Thumbs {
+        background-color: unset;
+        gap: 40px 40px;
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+    }
+}
+
+@media screen  and (max-width: 768px) {
+    .Thumbs {
+        gap: 20px 0;
+        grid-template-columns: 1fr;
+        margin: 1rem 2rem;
+    }
+}
+
+@media screen  and (max-width: 375px) {
+    .Thumbs {
+        margin: 1rem 1rem;
+    }
+}

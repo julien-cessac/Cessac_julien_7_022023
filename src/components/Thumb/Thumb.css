@@ -1,0 +1,41 @@
+.Thumb {
+    border-radius: 10px;
+    height: 100%;
+    min-height: 340px;
+    position: relative;
+}
+
+.Thumb-Img {
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.Thumb:hover {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.Thumb:hover > .Thumb-Img {
+    opacity: 0.30;
+}
+
+.Thumb-Overlay {
+    background: linear-gradient(180deg, #ffffff00 0%, #00000080 100%);
+    border-radius: 10px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.Thumb-Txt {
+    bottom: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    left: 20px;
+    margin-right: 20px;
+    position: absolute;
+}
+

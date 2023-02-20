@@ -1,0 +1,52 @@
+.Error {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+.Error-Title {
+    color: #ff6060;
+    font-size: 288px;
+    margin: auto;
+}
+
+.Error-Txt {
+    color: #ff6060;
+    display: block;
+    font-size: 36px;
+}
+
+.Error-Link {
+    display: block;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    font-size: 18px;
+    color: #FF6060;
+    text-decoration-line: underline;
+}
+
+@media screen  and (max-width: 768px) {
+    .Error-Title {
+        font-size: 150px;
+    }
+
+    .Error-Txt {
+        font-size: 24px;
+        margin: 2rem;
+    }
+
+    .Error-Link {
+        margin-top: 150px;
+        font-size: 18px;
+    }
+}
+
+@media screen  and (max-width: 375px) {
+
+    .Error-Txt {
+        margin: 1rem;
+    }
+
+    .Error-Title {
+        font-size: 96px;
+    }
+}

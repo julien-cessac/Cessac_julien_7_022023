@@ -1,0 +1,149 @@
+.Fiche {
+    color: #ff6060;
+    margin: 0rem 4rem;
+}
+
+.head {
+    display: inline-flex;
+    width: 100%;
+}
+
+.head > div {
+    flex: 1 0 auto;
+}
+
+.head-infos {
+    flex-direction: column;
+}
+
+.head-infos-title {
+    font-size: 36px;
+}
+
+.head-infos-loc {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.profil-infos {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+
+.profil-infos-name {
+    font-size: 18px;
+    margin-right: 10px;
+    text-align: right;
+    width: 100px;
+}
+
+.profil-infos-pic {
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    object-fit: cover;
+}
+
+.note {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.star {
+    height: 30px;
+    width: 30px;
+}
+
+.dropdown-fiche {
+    display: inline-flex;
+    gap: 0 75px;
+    line-height: 22.5px;
+    list-style: none;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.dropdown-fiche > .dropdown {
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .Fiche {
+        color: #ff6060;
+        margin: 0rem 2rem;
+    }
+
+    .head {
+        display: block;
+    }
+
+    .head-infos-title {
+        display: block;
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .head-infos-loc {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .tags {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 10px 0;
+    }
+
+    .tags > .tag {
+        margin-left: 0px;
+        min-width: 50px;
+    }
+
+    .profil {
+        display: inline-flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .profil-infos {
+        margin-bottom: unset;
+        width: 100%;
+    }
+
+    .profil-infos-pic {
+        height: 40px;
+        width: 40px;
+    }
+
+    .star {
+        height: 25px;
+        width: 25px;
+    }
+
+    .dropdown-fiche {
+        display: block;
+    }
+
+    .dropdown-fiche > .dropdown {
+        width: 100%;
+    }
+    
+    .dropdown {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .Fiche {
+        margin: 0rem 1rem;
+    }
+
+}
