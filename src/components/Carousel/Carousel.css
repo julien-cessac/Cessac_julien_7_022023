@@ -17,11 +17,14 @@
 .arrow {
     position: absolute;
     width: 45px;
+    transition: width 100ms;
     z-index: 1;
 }
 .arrow:hover {
     cursor: pointer;
-    filter: drop-shadow(2px 4px 6px black);
+    transition: width 100ms;
+    filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.473));
+    width: 50px;
 }
 
 .left-arrow {
